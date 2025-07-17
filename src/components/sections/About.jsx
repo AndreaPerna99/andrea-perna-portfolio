@@ -103,7 +103,7 @@ export const About = () => {
                   </div>
                 </li>
 
-                <li>
+                {/* <li>
                   <strong>Embedded Systems Engineer</strong>
                   <br />
                   <span className="text-sm text-gray-400">Fuga Impossibile Escape Room</span>
@@ -118,7 +118,7 @@ export const About = () => {
                       <li>Integrated sensors and actuators for interactive puzzles.</li>
                     </ul>
                   </div>
-                </li>
+                </li> */}
 
                 <li>
                   <strong>Mathematics Lecturer</strong>
