@@ -5,7 +5,7 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const Gallery = () => {
   const items = [
     {
-      img: samuelePortrait,
+      img: bachelorDegree,
       alt: "Studio portrait",
       caption: "🎓 Bachelor's Degree – 2022",
     },
