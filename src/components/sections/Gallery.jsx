@@ -1,5 +1,6 @@
 import bachelorDegree from "../../assets/bachelor.jpg";
 import leonardoLabs from "../../assets/leonardolabs.jpg";
+import leonardoLabs from "../../assets/venice.jpg";
 
 import { RevealOnScroll } from "../RevealOnScroll";
 
@@ -14,6 +15,11 @@ export const Gallery = () => {
       img: leonardoLabs,
       alt: "Outdoor handstand",
       caption: "🚀 Leonardo Labs - 2025",
+    },
+    {
+      img: venice,
+      alt: "Outdoor handstand",
+      caption: "🎭 Venice - 2023",
     },
   ];
 
