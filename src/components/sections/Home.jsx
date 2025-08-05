@@ -45,6 +45,12 @@ export const Home = () => {
               Projects
             </a>
             <a
+              href="#gallery"
+              className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
+            >
+              Gallery
+            </a>
+            <a
               href="#contact"
               className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
             >
