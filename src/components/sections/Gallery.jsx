@@ -1,5 +1,6 @@
 import bachelorDegree from "../../assets/bachelor.jpg";
-import leonardoLabs from "../../assets/leonardolabs.png";
+import leonardoLabs from "../../assets/leonardolabs.jpg";
+
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const Gallery = () => {
