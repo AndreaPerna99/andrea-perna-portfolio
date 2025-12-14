@@ -34,10 +34,6 @@ export const About = () => {
 
                 <div className="mt-2 pl-4 border-l-2 border-blue-500">
                   <p className="text-sm text-gray-400">
-                    Research within the <strong>Rainbow Team (CNRS)</strong> on the coordination and
-                    control of heterogeneous multi-robot systems.
-                  </p>
-                  <p className="text-sm text-gray-400">
                     <strong>Supervisor:</strong> Dr. Paolo Robuffo Giordano
                   </p>
                   <p className="text-sm text-gray-400">
@@ -117,7 +113,10 @@ export const About = () => {
 
                   <div className="mt-2 pl-4 border-l-2 border-blue-500">
                     <ul className="list-disc list-inside text-sm text-gray-400 space-y-1">
-                      <li>Research on coordination and control of heterogeneous multi-robot systems.</li>
+                      <li>Research intern within the Rainbow Team at IRISA/CNRS</li>
+                      <li>Coordination and control of heterogeneous multi-robot systems.</li>
+                      <li>Design and analysis of distributed control algorithms.</li>
+                      <li>Development and validation in simulation and robotic platforms.</li>
                     </ul>
                   </div>
                 </li>
