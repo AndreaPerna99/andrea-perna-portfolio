@@ -20,14 +20,9 @@ export const Gallery = () => {
       caption: "🚀 Leonardo Labs - 2025",
     },
     {
-      img: venice,
-      alt: "Outdoor handstand",
-      caption: "🎭 Venice - 2023",
-    },
-    {
       img: InriaRennes,
       alt: "Outdoor handstand",
-      caption: "Inria/IRISA - 2025",
+      caption: "🚀 Inria/IRISA - 2025",
     },
     {
       img: masterDegree,
