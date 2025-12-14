@@ -9,24 +9,19 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const Gallery = () => {
   const items = [
     {
-      img: bachelorDegree,
-      alt: "Studio portrait",
-      caption: "🎓 Bachelor's Degree – 2022",
-    },
-    {
       img: leonardoLabs,
-      alt: "Outdoor handstand",
-      caption: "🚀 Leonardo Labs - 2025",
-    },
-    {
-      img: InriaRennes,
-      alt: "Outdoor handstand",
-      caption: "🚀 Inria/IRISA - 2025",
+      alt: "Leonardo Labs",
+      caption: "🛰️ Leonardo Labs – 2025",
     },
     {
       img: masterDegree,
       alt: "Outdoor handstand",
       caption: "🎓 Master's Degree - 2025",
+    },
+    {
+      img: InriaRennes,
+      alt: "Outdoor handstand",
+      caption: "🚀 Inria/IRISA - 2025",
     },
   ];
 
