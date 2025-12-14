@@ -1,6 +1,9 @@
 import bachelorDegree from "../../assets/bachelor.jpg";
 import leonardoLabs from "../../assets/leonardolabs.jpg";
 import venice from "../../assets/venice.jpg";
+import venice from "../../assets/venice.jpg";
+import InriaRennes from "../../assets/rennes.jpg";
+import masterDegree from "../../assets/master.jpg";
 
 import { RevealOnScroll } from "../RevealOnScroll";
 
@@ -20,6 +23,16 @@ export const Gallery = () => {
       img: venice,
       alt: "Outdoor handstand",
       caption: "🎭 Venice - 2023",
+    },
+    {
+      img: InriaRennes,
+      alt: "Outdoor handstand",
+      caption: "Inria/IRISA - 2025",
+    },
+    {
+      img: masterDegree,
+      alt: "Outdoor handstand",
+      caption: "🎓 Master's Degree - 2025",
     },
   ];
 
