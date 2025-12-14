@@ -161,7 +161,7 @@ export const About = () => {
                   <br />
                   <span className="text-sm text-gray-400">Aldini Valeriani Technical Institute</span>
                   <br />
-                  <span className="text-sm text-gray-400">08/2023 – 09/2023</span>
+                  <span className="text-sm text-gray-400">08/2023 – 09/2023, 08/2025 - 09/2025</span>
                   <br />
                   <span className="text-sm text-gray-400">Bologna, Italy</span>
                   <div className="mt-2 pl-4 border-l-2 border-blue-500">
