@@ -114,7 +114,7 @@ export const Contact = () => {
             📧 Personal Email: <a href="mailto:and.perna99@gmail.com" className="text-blue-400 hover:underline">and.perna99@gmail.com</a>
           </p>
           <p className="text-gray-300 text-lg mb-4">
-            🎓 University Email: <a href="mailto:andrea.perna3@studio.unibo.it" className="text-blue-400 hover:underline">andrea.perna3@studio.unibo.it</a>
+            📧 Professional Email: <a href="mailto:andrea.perna@irisa.fr" className="text-blue-400 hover:underline">andrea.perna3@studio.unibo.it</a>
           </p>
           <p className="text-gray-300 text-lg mb-4">
             📞 Mobile Phone: <a href="tel:+39 3801093879" className="text-blue-400 hover:underline">+39 3801093879</a>
@@ -123,7 +123,7 @@ export const Contact = () => {
             💼 LinkedIn: <a href="https://www.linkedin.com/in/andrea-perna-4aa6191b1/" target="_blank" className="text-blue-400 hover:underline">https://www.linkedin.com/in/andrea-perna-4aa6191b1/</a>
           </p>
           <p className="text-gray-300 text-lg">
-            🌍 Location: Rome, Italy
+            🌍 Location: Rennes, Italy
           </p>
         </div>
       </RevealOnScroll>
