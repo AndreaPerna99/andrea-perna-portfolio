@@ -16,7 +16,9 @@ export const Home = () => {
             I'm an Italian automation engineer from the University of Bologna, with a strong
             foundation in Electronics and a passion for building intelligent systems.
             I love turning complex ideas into real, working solutions, always guided
-            by the motto: <em>Keep The Gradient</em>. Currently, I am looking for a PhD opportunity abroad.
+            by the motto: <em>Keep The Gradient</em>. I am currently pursuing a Ph.D.
+            with the Rainbow Team at CNRS in Rennes, focusing on the coordination and
+            control of heterogeneous multi-robot systems.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4">

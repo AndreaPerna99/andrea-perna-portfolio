@@ -26,17 +26,37 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
               <li>
+                <strong>Ph.D. in Mechatronics, Robotics, and Automation Engineering</strong>
+                <br />
+                <span className="text-sm text-gray-400">Université de Rennes, France</span>
+                <br />
+                <span className="text-sm text-gray-400">Started: 11/2025 – Present</span>
+
+                <div className="mt-2 pl-4 border-l-2 border-blue-500">
+                  <p className="text-sm text-gray-400">
+                    Research within the <strong>Rainbow Team (CNRS)</strong> on the coordination and
+                    control of heterogeneous multi-robot systems.
+                  </p>
+                  <p className="text-sm text-gray-400">
+                    <strong>Supervisor:</strong> Dr. Paolo Robuffo Giordano
+                  </p>
+                  <p className="text-sm text-gray-400">
+                    <strong>Co-Supervisor:</strong> Dr. Esteban Restrepo
+                  </p>
+                </div>
+              </li>
+              <li>
                 <strong>MSc in Automation Engineering (International)</strong>
                 <br />
                 <span className="text-sm text-gray-400">University of Bologna, Italy</span>
                 <br />
-                <span className="text-sm text-gray-400">Expected Graduation: 10/2025</span>
+                <span className="text-sm text-gray-400">Graduated: 10/2025</span>
                 <br />
-                <span className="text-sm text-gray-400">Current GPA: 29.4/30</span>
+                <span className="text-sm text-gray-400">Grade: 110 with honours</span>
 
                 <div className="mt-2 pl-4 border-l-2 border-blue-500">
                   <h5 className="text-sm font-semibold text-gray-300 mb-1">Thesis</h5>
-                  <p className="text-sm text-gray-400">Real-time LogAnalyzer for autonomous drones</p>
+                  <p className="text-sm text-gray-400">Development of a Log Analyzer Framework for Real-Time and Post-Flight Anomaly Detection in PX4-Based UAVs</p>
                   <p className="text-sm text-gray-400">
                     <strong>Supervisor:</strong> Prof. Giuseppe Notarstefano
                   </p>
@@ -75,7 +95,7 @@ export const About = () => {
                   <span className="text-sm text-gray-400"></span>
                   <div className="mt-2 pl-4 border-l-2 border-blue-500">
                   <h5 className="text-sm font-semibold text-gray-300 mb-1">Thesis</h5>
-                  <p className="text-sm text-gray-400">Design and Implementation of a Wireless-Controlled RC Car Using Arduino</p>
+                  <p className="text-sm text-gray-400">Development of an Arduino-Based Brushless Motor RC Car</p>
                 </div>
                 
                 </li>
@@ -86,6 +106,22 @@ export const About = () => {
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4">💼 Work Experience</h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
+                <li>
+                  <strong>Ph.D. Student</strong>
+                  <br />
+                  <span className="text-sm text-gray-400">CNRS – Rainbow Team</span>
+                  <br />
+                  <span className="text-sm text-gray-400">11/2025 – Present</span>
+                  <br />
+                  <span className="text-sm text-gray-400">Rennes, France</span>
+
+                  <div className="mt-2 pl-4 border-l-2 border-blue-500">
+                    <ul className="list-disc list-inside text-sm text-gray-400 space-y-1">
+                      <li>Research on coordination and control of heterogeneous multi-robot systems.</li>
+                    </ul>
+                  </div>
+                </li>
+
                 <li>
                   <strong>Master’s Thesis</strong>
                   <br />
@@ -103,7 +139,7 @@ export const About = () => {
                   </div>
                 </li>
 
-                {/* <li>
+                <li>
                   <strong>Embedded Systems Engineer</strong>
                   <br />
                   <span className="text-sm text-gray-400">Fuga Impossibile Escape Room</span>
@@ -118,7 +154,7 @@ export const About = () => {
                       <li>Integrated sensors and actuators for interactive puzzles.</li>
                     </ul>
                   </div>
-                </li> */}
+                </li>
 
                 <li>
                   <strong>Mathematics Lecturer</strong>
