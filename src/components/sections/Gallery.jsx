@@ -1,7 +1,6 @@
 import bachelorDegree from "../../assets/bachelor.jpg";
 import leonardoLabs from "../../assets/leonardolabs.jpg";
 import venice from "../../assets/venice.jpg";
-import venice from "../../assets/venice.jpg";
 import InriaRennes from "../../assets/rennes.jpg";
 import masterDegree from "../../assets/master.jpg";
 
