@@ -14,11 +14,11 @@ export const Home = () => {
           </h1>
 
           <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I'm an Italian automation engineer from the University of Bologna, with a strong
-            foundation in Electronics and a passion for building intelligent systems.
-            I love turning complex ideas into real, working solutions, always guided
-            by the motto: <em>Keep The Gradient</em>. I am currently pursuing a Ph.D.
-            with the Rainbow Team at CNRS in Rennes, focusing on the coordination and
+            I'm an Italian automation engineer with a strong foundation in robotics
+            and a passion for building intelligent systems. I love turning complex
+            ideas into real, working solutions, always guided by the motto{" "}
+            <em>Keep The Gradient</em>. I'm a Ph.D. researcher in the <em>Rainbow</em>{" "}
+            team at IRISA/CNRS and Inria Rennes, working on the coordination and
             control of multi-robot systems.
           </p>
 
