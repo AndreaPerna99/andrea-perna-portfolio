@@ -1,12 +1,6 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
-
-  // Skills definitions
-  const Robotics = ["ROS2", "Arduino", "PX4", "VXWorks", "PCB", "LabVIEW", "MATLAB", "Simulink", "Docker", "Git", "20Sim", "Raspberry Pi",];
-  const ArtificialIntelligence = ["Sklearn", "TensorFlow", "PyTorch", "Pandas", "OpenCV", "Numpy",];
-  const ProgrammingLanguages = ["Python", "C", "Java", "C++/C#", "JavaScript", "HTML/CSS",];
-  const GameDevelopment = ["Unity", "Unreal Engine", "Blender", "Manim", "Matplotlib",];
   return (
     <section
       id="about"
@@ -14,7 +8,7 @@ export const About = () => {
     >
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 emoji-title text-center bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
+        <h2 className="text-3xl font-bold mb-8 text-center bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
           👨‍💼 About Me
         </h2>
 
@@ -87,8 +81,6 @@ export const About = () => {
                   <span className="text-sm text-gray-400">Giordano Bruno Bologna, Italy</span>
                   <br />
                   <span className="text-sm text-gray-400">Graduated: 07/2018</span>
-                  <br />
-                  <span className="text-sm text-gray-400"></span>
                   <div className="mt-2 pl-4 border-l-2 border-blue-500">
                   <h5 className="text-sm font-semibold text-gray-300 mb-1">Thesis</h5>
                   <p className="text-sm text-gray-400">Development of an Arduino-Based Brushless Motor RC Car</p>
@@ -113,7 +105,7 @@ export const About = () => {
 
                   <div className="mt-2 pl-4 border-l-2 border-blue-500">
                     <ul className="list-disc list-inside text-sm text-gray-400 space-y-1">
-                      <li>Research intern within the Rainbow Team at IRISA/CNRS</li>
+                      <li>PhD researcher in the Rainbow Team at IRISA/CNRS.</li>
                       <li>Coordination and control of heterogeneous multi-robot systems.</li>
                       <li>Design and analysis of distributed control algorithms.</li>
                       <li>Development and validation in simulation and robotic platforms.</li>

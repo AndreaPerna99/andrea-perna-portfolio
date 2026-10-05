@@ -1,6 +1,4 @@
-import { useState } from "react";
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./App.css";
+import { useCallback, useState } from "react";
 
 import { LoadingScreen } from "./components/LoadingScreen";
 import { Navbar } from "./components/Navbar";
@@ -8,36 +6,18 @@ import { MobileMenu } from "./components/MobileMenu";
 import { Home } from "./components/sections/Home";
 import { About } from "./components/sections/About";
 import { Skills } from "./components/sections/Skills";
-import { Gallery } from "./components/sections/Gallery";
 import { Projects } from "./components/sections/Projects";
-import "./index.css";
+import { Gallery } from "./components/sections/Gallery";
 import { Contact } from "./components/sections/Contact";
-
-/*
-import MultiRobotSAR from "./projectPages/MultiRobotSAR";
-import LogAnalyzer from "./projectPages/LogAnalyzer";
-import EscapeRoom from "./projectPages/EscapeRoom";
-import DistributedClassification from "./projectPages/DistributedClassification";
-import OptimalControlQuadrotor from "./projectPages/OptimalControlQuadrotor";
-import AutonomousSanitizeRobot from "./projectPages/AutonomousSanitizeRobot";
-import DistributedMultiRobot from "./projectPages/DistributedMultiRobotCorridor";
-import BusinessPlan from "./projectPages/BusinessPlan";
-import StereoReconstruction from "./projectPages/StereoDepthEstimation";
-import MultiClassLogReg from "./projectPages/MultiClassLogReg";
-import UR5Modeling from "./projectPages/UR5Modeling";
-import ArduinoRCCar from "./projectPages/ArduinoCar";
-import OscilloscopeInterface from "./projectPages/OscilloscopeInterface";
-import ArduinoCar from "./projectPages/ArduinoCar";
-import ArcadeQuestGame from "./projectPages/ArcadeQuestGame";
-*/
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const handleLoaded = useCallback(() => setIsLoaded(true), []);
 
   return (
     <>
-      {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}{" "}
+      {!isLoaded && <LoadingScreen onComplete={handleLoaded} />}
       <div
         className={`min-h-screen transition-opacity duration-700 ${
           isLoaded ? "opacity-100" : "opacity-0"

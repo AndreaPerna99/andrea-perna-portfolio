@@ -76,7 +76,7 @@ export const Projects = () => {
       title: "Logistic Regression on Multi-Class Classification Problem",
       github: "https://github.com/andreaperna99/learning-estimation-dynamical-systems",
       description:
-        "Designed and implemented a multi-class logistic regression (one-vs-all) classifier using Netwon-Raphson optimization in MATLAB, achieving high accuracy classification across fourc classes by modelung decision boundaries and minimizing logistic loss functions.",
+        "Designed and implemented a multi-class logistic regression (one-vs-all) classifier using Newton-Raphson optimization in MATLAB, achieving high accuracy classification across four classes by modeling decision boundaries and minimizing logistic loss functions.",
       tech: ["MATLAB", "Logistic Regression", "Classification"],
     },
     {
@@ -112,7 +112,7 @@ export const Projects = () => {
   return (
     <section id="projects" className="min-h-screen py-20 bg-black text-white">
       <div className="max-w-5xl mx-auto px-4 break-words">
-        <h2 className="text-3xl font-bold mb-8 emoji-title text-center bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
+        <h2 className="text-3xl font-bold mb-8 text-center bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
           💻 Projects
         </h2>
   

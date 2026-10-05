@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import { navLinks } from "../navLinks";
 
 export const Home = () => {
   return (
@@ -8,7 +9,7 @@ export const Home = () => {
     >
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-tight">
             Hi, I'm Andrea Perna
           </h1>
 
@@ -22,44 +23,16 @@ export const Home = () => {
           </p>
 
           <div className="flex flex-wrap justify-center gap-4">
-            <a
-              href="#home"
-              className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
-            >
-              Home
-            </a>
-            <a
-              href="#about"
-              className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
-            >
-              About
-            </a>
-            <a
-              href="#skills"
-              className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
-            >
-              Skills
-            </a>
-            <a
-              href="#projects"
-              className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
-            >
-              Projects
-            </a>
-            <a
-              href="#gallery"
-              className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
-            >
-              Gallery
-            </a>
-            <a
-              href="#contact"
-              className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
-            >
-              Contact
-            </a>
+            {navLinks.map(({ href, label }) => (
+              <a
+                key={href}
+                href={href}
+                className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
+              >
+                {label}
+              </a>
+            ))}
           </div>
-
         </div>
       </RevealOnScroll>
     </section>
