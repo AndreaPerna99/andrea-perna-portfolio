@@ -18,7 +18,7 @@ export const Home = () => {
             and a passion for building intelligent systems. I love turning complex
             ideas into real, working solutions, always guided by the motto{" "}
             <em>Keep The Gradient</em>. I'm a Ph.D. researcher in the <em>Rainbow</em>{" "}
-            team at IRISA/CNRS and Inria Rennes, working on the coordination and
+            team at IRISA/CNRS in Rennes, France, working on the coordination and
             control of multi-robot systems.
           </p>
 
